@@ -1,0 +1,58 @@
+[debug] [2024-07-25T19:01:17.975Z] ----------------------------------------------------------------------
+[debug] [2024-07-25T19:01:17.980Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve --only hosting
+[debug] [2024-07-25T19:01:17.981Z] CLI Version:   13.14.1
+[debug] [2024-07-25T19:01:17.981Z] Platform:      win32
+[debug] [2024-07-25T19:01:17.982Z] Node Version:  v20.15.0
+[debug] [2024-07-25T19:01:17.982Z] Time:          Fri Jul 26 2024 00:31:17 GMT+0530 (இந்திய நிலையான நேரம்)
+[debug] [2024-07-25T19:01:17.982Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-07-25T19:01:18.198Z] Field ".hosting" in "firebase.json" is possibly invalid: should be object
+[debug] [2024-07-25T19:01:18.199Z] Object ".hosting[0]" in "firebase.json" is missing required property: {"missingProperty":"target"}
+[debug] [2024-07-25T19:01:18.199Z] Object ".hosting[0]" in "firebase.json" is missing required property: {"missingProperty":"site"}
+[debug] [2024-07-25T19:01:18.199Z] Field ".hosting[0]" in "firebase.json" is possibly invalid: should match some schema in anyOf
+[debug] [2024-07-25T19:01:18.200Z] Field ".hosting" in "firebase.json" is possibly invalid: should match some schema in anyOf
+[debug] [2024-07-25T19:01:18.210Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-07-25T19:01:18.211Z] > authorizing via signed-in user (umeshwar@student.tce.edu)
+[debug] [2024-07-25T19:01:18.211Z] [iam] checking project fir-cff72 for permissions ["firebase.projects.get"]
+[debug] [2024-07-25T19:01:18.214Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-cff72:testIamPermissions [none]
+[debug] [2024-07-25T19:01:18.215Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-cff72:testIamPermissions x-goog-quota-user=projects/fir-cff72
+[debug] [2024-07-25T19:01:18.215Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-cff72:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-07-25T19:01:19.913Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-cff72:testIamPermissions 200
+[debug] [2024-07-25T19:01:19.914Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-cff72:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-07-25T19:01:19.915Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-cff72 [none]
+[debug] [2024-07-25T19:01:20.866Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-cff72 200
+[debug] [2024-07-25T19:01:20.866Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-cff72 {"projectId":"fir-cff72","projectNumber":"670979430193","displayName":"121s","name":"projects/fir-cff72","resources":{"hostingSite":"fir-cff72","storageBucket":"fir-cff72.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_631b7efa-67f6-4d19-895e-aa2ea8999278"}
+[debug] [2024-07-25T19:01:20.871Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-cff72 [none]
+[debug] [2024-07-25T19:01:21.371Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-cff72 200
+[debug] [2024-07-25T19:01:21.371Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-cff72 {"projectId":"fir-cff72","projectNumber":"670979430193","displayName":"121s","name":"projects/fir-cff72","resources":{"hostingSite":"fir-cff72","storageBucket":"fir-cff72.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_631b7efa-67f6-4d19-895e-aa2ea8999278"}
+[error] 
+[error] Error: Assertion failed: resolving hosting target of a site with no site name or target name. This should have caused an error earlier
+[debug] [2024-07-25T19:09:15.467Z] ----------------------------------------------------------------------
+[debug] [2024-07-25T19:09:15.473Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve --only hosting
+[debug] [2024-07-25T19:09:15.473Z] CLI Version:   13.14.1
+[debug] [2024-07-25T19:09:15.474Z] Platform:      win32
+[debug] [2024-07-25T19:09:15.474Z] Node Version:  v20.15.0
+[debug] [2024-07-25T19:09:15.474Z] Time:          Fri Jul 26 2024 00:39:15 GMT+0530 (இந்திய நிலையான நேரம்)
+[debug] [2024-07-25T19:09:15.475Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-07-25T19:09:15.768Z] Field ".hosting" in "firebase.json" is possibly invalid: should be object
+[debug] [2024-07-25T19:09:15.769Z] Object ".hosting[0]" in "firebase.json" is missing required property: {"missingProperty":"target"}
+[debug] [2024-07-25T19:09:15.770Z] Object ".hosting[0]" in "firebase.json" is missing required property: {"missingProperty":"site"}
+[debug] [2024-07-25T19:09:15.770Z] Field ".hosting[0]" in "firebase.json" is possibly invalid: should match some schema in anyOf
+[debug] [2024-07-25T19:09:15.770Z] Field ".hosting" in "firebase.json" is possibly invalid: should match some schema in anyOf
+[debug] [2024-07-25T19:09:15.785Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-07-25T19:09:15.786Z] > authorizing via signed-in user (umeshwar@student.tce.edu)
+[debug] [2024-07-25T19:09:15.786Z] [iam] checking project fir-cff72 for permissions ["firebase.projects.get"]
+[debug] [2024-07-25T19:09:15.789Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-cff72:testIamPermissions [none]
+[debug] [2024-07-25T19:09:15.789Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-cff72:testIamPermissions x-goog-quota-user=projects/fir-cff72
+[debug] [2024-07-25T19:09:15.790Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-cff72:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-07-25T19:09:17.505Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-cff72:testIamPermissions 200
+[debug] [2024-07-25T19:09:17.505Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-cff72:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2024-07-25T19:09:17.506Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-cff72 [none]
+[debug] [2024-07-25T19:09:18.221Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-cff72 200
+[debug] [2024-07-25T19:09:18.221Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-cff72 {"projectId":"fir-cff72","projectNumber":"670979430193","displayName":"121s","name":"projects/fir-cff72","resources":{"hostingSite":"fir-cff72","storageBucket":"fir-cff72.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_631b7efa-67f6-4d19-895e-aa2ea8999278"}
+[debug] [2024-07-25T19:09:18.225Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-cff72 [none]
+[debug] [2024-07-25T19:09:18.632Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-cff72 200
+[debug] [2024-07-25T19:09:18.632Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-cff72 {"projectId":"fir-cff72","projectNumber":"670979430193","displayName":"121s","name":"projects/fir-cff72","resources":{"hostingSite":"fir-cff72","storageBucket":"fir-cff72.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_631b7efa-67f6-4d19-895e-aa2ea8999278"}
+[error] 
+[error] Error: Assertion failed: resolving hosting target of a site with no site name or target name. This should have caused an error earlier
